@@ -81,3 +81,12 @@ npm run build  # For production
 ```bash
 git clone https://github.com/omoledavid/trip-planner.git
 cd trip-planner
+```
+
+# Author
+
+- <a href="https://designsamples.online">**Omole Kessiena David** </a>
+
+# License
+
+This project is licensed under the MIT License

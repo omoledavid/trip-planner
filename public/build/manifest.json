@@ -1,15 +1,18 @@
 {
   "resources/js/Pages/HomePage.vue": {
-    "file": "assets/HomePage-DHyhzr4p.js",
+    "file": "assets/HomePage-CljVFMSe.js",
     "name": "HomePage",
     "src": "resources/js/Pages/HomePage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js"
+    ],
+    "css": [
+      "assets/HomePage-COkjeNrx.css"
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-c8QdHmNr.js",
+    "file": "assets/app-Deh1TVNU.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
