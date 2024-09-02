@@ -27,7 +27,7 @@ A web application that allows users to plan their road trips by adding, rearrang
 
 ### Prerequisites
 
-- PHP 8.0 or higher
+- PHP 8.2 or higher
 - Composer
 - NPM or Yarn
 - MySQL
