@@ -25,6 +25,49 @@ A web application that allows users to plan their road trips by adding, rearrang
 
 ## Setup Instructions
 
+- Install Backend Dependencies
+
+```bash
+composer install
+```
+
+- Install Frontend Dependencies
+
+```bash
+npm install
+```
+## Environment Configuration
+
+- Copy the .env.example file to .env
+- Generate the application key:
+```bash
+php artisan key:generate
+```
+- Set up your database
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+```
+- Add your Google Maps API Key to .env file
+```bash
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+## Database Migration
+```bash
+php artisan migrate
+```
+
+## Build the Frontend
+```bash
+npm run dev  # For development
+npm run build  # For production
+```
+
 ### Prerequisites
 
 - PHP 8.2 or higher
